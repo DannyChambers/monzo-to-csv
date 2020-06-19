@@ -15,3 +15,12 @@ A Chrome plugin that translates the Monzo Business web statement into a CSV file
 
 
 A Statement CSV will download (One that includes a balance!)
+
+
+##To do
+
+1. Add domain/page restriction]
+2. Add ability to leave out 'Moved from pot' dep:3
+3. Refactor to calculate balance rather than just scrape
+4. Icon
+5. UI
