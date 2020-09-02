@@ -14,11 +14,10 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
                 data = data.replace(/"/g, '""');
                 row.push('"' + data + '"');
             }
-            csv.push(row.join(';'));
+            csv.push(row.join(','));
         }
         return csv_string = csv.join('\r\n');
     }
-
     sendResponse({
         data: table_as_csv()
     })
